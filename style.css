@@ -1,0 +1,211 @@
+/* App Name Image */
+
+
+#titlePic {
+	width: 100%;
+	background-color: #0f99f1; 
+	height: 175px;
+	margin-top: 0px;
+}
+
+#bigtitle {
+	font-size: 300%;
+	font-weight: 200%;
+	text-align: center;
+	padding-top: 40px;
+	color: #feff49;
+}
+			
+
+#catchphrase {
+	font-stretch: 45%;
+	font-size: 100%;
+	text-align: center;
+	padding-bottom: 90px;
+	color: #feff49;
+}
+
+
+body {
+	background-color: #145e85;
+}
+
+h1 {
+	text-shadow: 4px 3px #e5e58a;
+}
+
+
+li {
+	text-align: center;
+	list-style-type: none;
+}
+
+
+
+.main {
+	background-color: #AABBCC;	
+	margin: 10px auto 5px auto;
+	padding: 15px 0 100px 0;
+	border-radius: 5px;
+
+	
+
+}
+
+
+
+/* DROPDOWN BUTTON */
+
+
+.dropbtn {
+	background-color: #1a75bb;
+	color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer; 
+}
+
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #3e8e41;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: relative;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {
+	 
+	display:block;
+}
+
+
+
+
+/* UPPER LOWER STEPS AREA */
+
+
+
+#upperlower {
+	display: inline-block; 
+	background-color: white; 
+	border-radius: 5px;
+	height: 40px; 
+	width: 45px;	
+}
+
+
+
+
+/* NOTE DIV BOXES */
+
+
+
+.threebox {
+	border-radius: 5px;
+	background-color: white;
+	margin: 0 auto;
+	float: left;
+	height: 40px;
+	width:45px;
+	letter-spacing: 3px;
+	text-shadow: 3px 2px #e5e5e5;
+	vertical-align: text-bottom;
+	padding-top: 10px;
+	font-size: 120%;
+	font-weight: 110%;
+}
+
+#relminbox {
+	background-color: white;
+	border-radius: 5px;
+	margin: 0 auto;
+	height: 40px; 
+	width: 80px; 
+	letter-spacing: 4px;
+	text-shadow: 4px 3px #f7f7f7;
+	vertical-align: text-bottom;
+	padding-top: 10px;
+	font-size: 120%;
+	font-weight: 110%;
+	box-shadow: inset -2px -3px 7px 4px rgba(35,35,35,.125);
+	text-shadow: 3px 2px #a7adb3;
+}
+	
+
+.notebox {
+	display: inline-grid;
+	margin: 0 5px 30px 5px;
+	background-color: white;
+	height: 40px;
+	width:45px;
+	border-radius: 5px;
+	letter-spacing: 3px;
+	vertical-align: text-bottom;
+	padding-top: 10px;
+	font-size: 120%;
+	font-weight: 110%;
+	box-shadow: inset -2px -3px 7px 4px rgba(35,35,35,.125);
+	text-shadow: 3px 2px #a7adb3;
+	
+}
+
+
+
+
+
+footer {
+	height: 5px;
+}
+
+
+
+
+/*	RESPONSIVE SECTION */
+
+
+
+@media screen and (max-width:959px) {
+	.main {
+		width:100%;
+	}
+
+	#titlePic {
+		width:100%;
+	}
+}
+
+@media screen and (max-width:640px) {
+	.main {
+		width:100%;
+	}
+
+	#titlePic {
+		width:100%;
+	}
+}
+
+@media screen and (max-width:320px) {
+	.main {
+		width:320px;
+	}
+
+	#titlePic {
+		width:320px;
+	}
+}
