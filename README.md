@@ -1,4 +1,4 @@
-# tonewizzard
+# Tone Wizzard!
 The Tone Wizzard App is Every Musician's Favorite Companion
 
 Remember when that genius lightning bolt of wicked sweet sounds struck your brain, and you just had to jot it down? Do you remember what happened right after you barely made it to the nearest recording device and/or utensils? Have you ever been working on a piece of music and got stumped on a particular chord progression? Have you ever hit a mid-session blank while harmonizing vocals?
